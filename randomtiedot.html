@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Reseptihaku - Antin Rilli</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+  
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+        <!-- Custom Styles -->
+        <style>
+          /* Center the form and inputs */
+          #searchForm {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              margin-top: 50px;
+          }
+          /* Style for the submit button */
+          .custom-submit {
+              background-color: black;
+              color: white;
+              border: none;
+          }
+          /* Center the input field and set width */
+          #searchInput {
+              width: 80%;
+              max-width: 600px; /* Adjust as needed */
+              margin-bottom: 30px;
+          }
+      </style>
+    
+  </head>
+
+  <body class="recipe-details-page">
+
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <div class="container-fluid  position-relative d-flex align-items-center justify-content-between">
+  
+        <a href="index.html" class="logo d-flex align-items-center">->
+          <h1 class="sitename">Antin Rilli</h1>
+        </a>
+  
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Etusivu</a></li>
+            <li><a href="index.html">Reseptit</a></li>
+            <li><a href="contact.html" class="active">Yhteydenotot</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+  
+      </div>
+    </header>
+  
+    <main class="main">
+      <div class="page-title light-background">
+        <div class="container">
+          <h1>Etkö löytänyt etsimääsi? Kokeile reseptihakua.</h1>
+          <nav class="breadcrumbs">
+            <ol>
+              <li><a href="index.html">Etusivu</a></li>
+              <li class="current">Reseptihaku</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+
+          <!-- Search Form -->
+    <div class="container">
+      <form id="searchForm">
+          <input type="text" id="searchInput" placeholder="Kirjoita tähän ruuan nimi esim. 'pasta'" class="form-control">
+          <button type="submit" class="btn btn-dark mt-2">Näytä reseptit</button>
+      </form>
+  </div>
+
+  <!-- Recipe Results -->
+  <div class="container mt-4">
+      <h3>Tulokset:</h3>
+      <div id="recipeResults"></div>
+  </div>
+
+    </main> 
+
+    <footer id="footer" class="footer light-background">
+
+      <div class="container">
+        <div class="copyright text-center ">
+          <p>© <span>Copyright</span> <strong class="px-1 sitename">Antin Rilli</strong> <span>All Rights Reserved</span></p>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href=""><i class="bi bi-facebook"></i></a>
+          <a href=""><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+  
+    </footer>
+  
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  
+    <!-- Preloader -->
+    <div id="preloader"></div>
+  
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="random.js"></script>
+</body>
+</html>
